@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%px;
+    height:100vh ;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+   
+
+}
+.main{
+    width: 500px;
+   height: 100px;
+    background-color: black;
+    color: white;
+overflow: hidden;
+    margin: 10px 0;
+    transition: 0.2s;
+    
+}
+.qus{
+    width: 500px;
+    height: 100px;
+   
+}
+.ans{
+    width: 500px;
+    height: 100px;
+}
+.active{
+height: 200px;
+}
